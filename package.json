@@ -18,11 +18,13 @@
         "prepare": "husky install"
     },
     "dependencies": {
+        "knex": "^0.95.6",
         "next": "10.2.0",
         "next-compose-plugins": "^2.2.1",
         "react": "17.0.2",
         "react-dom": "17.0.2",
-        "sass": "^1.32.5"
+        "sass": "^1.32.5",
+        "sqlite3": "^5.0.2"
     },
     "devDependencies": {
         "@babel/core": "^7.12.10",
