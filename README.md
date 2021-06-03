@@ -116,6 +116,12 @@ GitHub Actions makes it easy to automate all your software workflows, now with w
 
 [Go To Documentation](https://docs.github.com/en/actions)
 
+### **Knex**
+
+Knex.js (pronounced /kəˈnɛks/) is a "batteries included" SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use. It features both traditional node style callbacks as well as a promise interface for cleaner async flow control, a stream interface, full-featured query and schema builders, transaction support (with savepoints), connection pooling and standardized responses between different query clients and dialects.
+
+[Go To Documentation](https://knexjs.org/)
+
 ## License
 
 MIT

@@ -11,5 +11,11 @@
     },
     "npm.packageManager": "yarn",
     "eslint.packageManager": "yarn",
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "cSpell.words": [
+        "k",
+        "ks",
+        "kəˈnɛks",
+        "n"
+    ]
 }
