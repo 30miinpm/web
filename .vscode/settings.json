@@ -1,5 +1,6 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.eol": "\n",
     "prettier.jsxSingleQuote": true,
     "codemetrics.basics.ComplexityLevelHigh": 20,
     "codemetrics.basics.ComplexityLevelNormal": 15,
@@ -12,10 +13,5 @@
     "npm.packageManager": "yarn",
     "eslint.packageManager": "yarn",
     "typescript.tsdk": "node_modules/typescript/lib",
-    "cSpell.words": [
-        "k",
-        "ks",
-        "kəˈnɛks",
-        "n"
-    ]
+    "cSpell.words": ["k", "ks", "kəˈnɛks", "n"]
 }
