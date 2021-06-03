@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "seyyedkhandon.gpack",
+        "esbenp.prettier-vscode",
+        "coenraads.bracket-pair-colorizer-2",
+        "tombonnike.vscode-status-bar-format-toggle",
+        "shd101wyy.markdown-preview-enhanced",
+        "k--kato.intellij-idea-keybindings",
+        "pkief.material-icon-theme",
+        "formulahendry.auto-complete-tag",
+        "pucelle.vscode-css-navigation",
+        "royaction.color-manager",
+        "zh9528.file-size",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "kisstkondoros.vscode-codemetrics",
+        "wix.vscode-import-cost"
+    ]
+}

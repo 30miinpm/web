@@ -1,0 +1,15 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.jsxSingleQuote": true,
+    "codemetrics.basics.ComplexityLevelHigh": 20,
+    "codemetrics.basics.ComplexityLevelNormal": 15,
+    "codemetrics.basics.ComplexityLevelExtreme": 30,
+    "codemetrics.basics.ComplexityLevelLow": 5,
+    "stylelint.packageManager": "yarn",
+    "files.associations": {
+        ".stylelintrc": "json"
+    },
+    "npm.packageManager": "yarn",
+    "eslint.packageManager": "yarn",
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
