@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "seyyedkhandon.gpack",
         "esbenp.prettier-vscode",
         "coenraads.bracket-pair-colorizer-2",
         "tombonnike.vscode-status-bar-format-toggle",
@@ -15,6 +14,16 @@
         "streetsidesoftware.code-spell-checker",
         "kisstkondoros.vscode-codemetrics",
         "wix.vscode-import-cost",
-        "cweijan.vscode-mysql-client2"
+        "cweijan.vscode-mysql-client2",
+        "naumovs.color-highlight",
+        "bierner.color-info",
+        "vivaxy.vscode-conventional-commits",
+        "mikestead.dotenv",
+        "dsznajder.es7-react-js-snippets",
+        "mhutchie.git-graph",
+        "xabikos.javascriptsnippets",
+        "christian-kohler.path-intellisense",
+        "jasonnutter.search-node-modules",
+        "visualstudioexptteam.vscodeintellicode"
     ]
 }
