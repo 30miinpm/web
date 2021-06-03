@@ -1,10 +1,13 @@
 import React from 'react';
+import MyNavigation from 'src/components/global/navigation';
 import 'src/assets/scss/global.scss';
 
 function MyApp({ Component, pageProps }) {
     return (
         <>
-            <Component {...pageProps} />
+            <MyNavigation>
+                <Component {...pageProps} />
+            </MyNavigation>
         </>
     );
 }
