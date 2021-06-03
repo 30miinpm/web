@@ -14,6 +14,7 @@
         "dbaeumer.vscode-eslint",
         "streetsidesoftware.code-spell-checker",
         "kisstkondoros.vscode-codemetrics",
-        "wix.vscode-import-cost"
+        "wix.vscode-import-cost",
+        "cweijan.vscode-mysql-client2"
     ]
 }

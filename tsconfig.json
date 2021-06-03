@@ -17,6 +17,8 @@
         "paths": {
             "@components/*": ["src/components/*"],
             "@components": ["src/components"],
+            "@db/*": ["src/db/*"],
+            "@db": ["src/db"],
             "@styles/*": ["src/styles/*"],
             "@styles": ["src/styles"],
             "@public/*": ["public/*"],
