@@ -4,8 +4,10 @@ import styles from './navbar.module.scss';
 const MyNavigationNavbar = () => {
     return (
         <div className={styles.navbarContainer}>
-            <span className={styles.logo}>فروشگاه</span>
             <ul className={styles.menuContainer}>
+                <li>
+                    <span className={styles.logo}>فروشگاه</span>
+                </li>
                 <li>
                     <a href="#!">صفحه اصلی</a>
                 </li>
