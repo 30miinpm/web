@@ -1,0 +1,18 @@
+/*************************************************
+
+        global styles for min-width of 1280
+
+*************************************************/
+#__next {
+    min-height: 100vh;
+    position: relative;
+}
+@media screen and (min-width: 1280px) {
+    body {
+        display: flex;
+        justify-content: center;
+        #__next {
+            width: 1280px;
+        }
+    }
+}

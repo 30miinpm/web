@@ -1,0 +1,29 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "coenraads.bracket-pair-colorizer-2",
+        "tombonnike.vscode-status-bar-format-toggle",
+        "shd101wyy.markdown-preview-enhanced",
+        "k--kato.intellij-idea-keybindings",
+        "pkief.material-icon-theme",
+        "formulahendry.auto-complete-tag",
+        "pucelle.vscode-css-navigation",
+        "royaction.color-manager",
+        "zh9528.file-size",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "kisstkondoros.vscode-codemetrics",
+        "wix.vscode-import-cost",
+        "cweijan.vscode-mysql-client2",
+        "naumovs.color-highlight",
+        "bierner.color-info",
+        "vivaxy.vscode-conventional-commits",
+        "mikestead.dotenv",
+        "dsznajder.es7-react-js-snippets",
+        "mhutchie.git-graph",
+        "xabikos.javascriptsnippets",
+        "christian-kohler.path-intellisense",
+        "jasonnutter.search-node-modules",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}

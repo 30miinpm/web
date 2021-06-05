@@ -1,0 +1,47 @@
+.navbarContainer {
+    background-color: #fff;
+    padding: 5px 20px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.2rem;
+    color: #0cafff;
+    font-weight: bold;
+}
+.menuContainer {
+    padding: 5px 20px;
+    li {
+        display: inline-block;
+        margin: 5px 25px;
+        a {
+            color: #444;
+            text-decoration: none;
+            transition: color 0.3s;
+            &:hover {
+                color: #0cafff;
+            }
+        }
+    }
+}
+.userDropdown {
+    background-color: #fff;
+    border-color: #ffff00;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 2px;
+    color: #333;
+    padding: 10px 20px;
+    font-family: 'yekan';
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    &:hover {
+        background-color: #ffff00;
+    }
+    &:active {
+        background-color: #333;
+        color: #ffff00;
+    }
+}
