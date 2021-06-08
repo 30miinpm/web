@@ -1,14 +1,14 @@
 .navbarContainer {
-    background-color: #fff;
-    padding: 5px 20px;
-    height: 65px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    background-color: #fff;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    padding: 5px 20px;
 }
 .logo {
-    font-size: 1.2rem;
     color: #0cafff;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 .menuContainer {
@@ -28,20 +28,20 @@
 }
 .userDropdown {
     background-color: #fff;
-    border-color: #ffff00;
+    border-color: #ff0;
     border-radius: 24px;
     border-style: solid;
     border-width: 2px;
     color: #333;
-    padding: 10px 20px;
-    font-family: 'yekan';
     cursor: pointer;
+    font-family: 'yekan', sans-serif;
+    padding: 10px 20px;
     transition: background-color 0.3s, color 0.3s;
     &:hover {
-        background-color: #ffff00;
+        background-color: #ff0;
     }
     &:active {
         background-color: #333;
-        color: #ffff00;
+        color: #ff0;
     }
 }

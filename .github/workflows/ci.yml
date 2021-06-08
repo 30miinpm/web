@@ -4,11 +4,9 @@ on:
     push:
         branches:
             - main
-            - master
     pull_request:
         branches:
             - main
-            - master
 
 jobs:
     ci:
@@ -44,8 +42,11 @@ jobs:
             - name: Install dependencies
               run: yarn
 
-            - name: Run lint
+            - name: Run JS lint
               run: yarn lint
 
-            - name: Run tests
-              run: yarn test
+            - name: Run Styles lint
+              run: yarn lint:style
+
+#             - name: Run tests
+#               run: yarn test:run

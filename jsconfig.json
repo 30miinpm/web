@@ -17,10 +17,10 @@
         "paths": {
             "@components/*": ["src/components/*"],
             "@components": ["src/components"],
-            "@db/*": ["src/db/*"],
-            "@db": ["src/db"],
+            "@db/*": ["db/*"],
+            "@db": ["db"],
             "@styles/*": ["src/assets/styles/*"],
-            "@styles": ["src//assets/styles"],
+            "@styles": ["src/assets/styles"],
             "@public/*": ["public/*"],
             "@public": ["public"],
             "@test/*": ["test/*"],
@@ -28,5 +28,5 @@
         }
     },
     "include": [],
-    "exclude": ["node_modules", "test/*"]
+    "exclude": ["node_modules"]
 }
