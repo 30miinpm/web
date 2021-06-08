@@ -9,10 +9,10 @@ const MyNavigationNavbar = () => {
                     <span className={styles.logo}>فروشگاه</span>
                 </li>
                 <li>
-                    <a href="#!">صفحه اصلی</a>
+                    <a href="/">صفحه اصلی</a>
                 </li>
                 <li>
-                    <a href="#!">تماس با ما</a>
+                    <a href="/contact">تماس با ما</a>
                 </li>
                 <li>
                     <a href="#!">پشتیبانی</a>

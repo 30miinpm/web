@@ -24,6 +24,7 @@
         "xabikos.javascriptsnippets",
         "christian-kohler.path-intellisense",
         "jasonnutter.search-node-modules",
-        "visualstudioexptteam.vscodeintellicode"
+        "visualstudioexptteam.vscodeintellicode",
+        "ecmel.vscode-html-css"
     ]
 }
