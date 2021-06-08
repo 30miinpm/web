@@ -48,5 +48,5 @@ jobs:
             - name: Run Styles lint
               run: yarn lint:style
 
-            - name: Run tests
-              run: yarn test:run
+#             - name: Run tests
+#               run: yarn test:run
