@@ -1,4 +1,31 @@
+.userBtnContainer {
+    position: relative;
+    margin: 10px 20px;
+}
+.dropDownContainer {
+    min-width: 150px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 100%;
+    background-color: #c4c4c4;
+    z-index: 0;
+    height: 0;
+    overflow-x: hidden;
+    transition: all 0.3s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    li {
+        padding: 2px 15px;
+        &:hover {
+            background-color: #e6e6e6;
+            cursor: pointer;
+        }
+    }
+}
 .userDropdown {
+    position: inherit;
+    z-index: 5;
     background-color: #fff;
     border-color: #ff0;
     border-radius: 24px;
@@ -7,8 +34,9 @@
     color: #333;
     cursor: pointer;
     font-family: 'yekan', sans-serif;
-    margin: 10px 20px;
     padding: 0 15px;
+    min-width: 150px;
+    width: 100%;
     transition: background-color 0.3s, color 0.3s;
     &:hover {
         background-color: #ff0;
@@ -16,5 +44,33 @@
     &:active {
         background-color: #333;
         color: #ff0;
+        .chevronDown {
+            filter: contrast(0);
+        }
+    }
+}
+.chevronDown {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-image: url('../../../assets/images/chevron-down.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+
+.dropDownOpen {
+    .userDropdown {
+        background-color: #ff0;
+    }
+    .dropDownContainer {
+        height: auto;
+        overflow-x: 0;
+        padding: 20px 0 10px;
+    }
+    .chevronDown {
+        transform: rotate(-180deg);
     }
 }

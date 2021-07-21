@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 import MyInput from 'src/components/global/input';
 import MyInputArea from 'src/components/global/input-area';
 import MyButton from 'src/components/global/button';
@@ -59,7 +58,7 @@ export default MySignUp;
 const MyWrapper = ({ children, fullWidth = false }) => {
     return (
         <div
-            className={clsx(styles.inputWrapper, fullWidth ? styles.full : '')}
+            className={`${styles.inputWrapper} ${fullWidth ? styles.full : ''}`}
         >
             {children}
         </div>
