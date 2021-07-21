@@ -1,0 +1,35 @@
+.authContainer {
+    min-height: calc(100vh - 95px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signinForm {
+    text-align: center;
+    min-width: 300px;
+    padding: 0 5%;
+    @media screen and (min-width: 768px) {
+        min-width: 400px;
+    }
+}
+.inputWrapper {
+    margin: 0px 15px;
+    &.full {
+        width: 400px;
+        @media screen and (min-width: 768px) {
+            width: 500px;
+        }
+        @media screen and (min-width: 1076px) {
+            width: 1033px;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+        width: 500px;
+    }
+}
+.title {
+    color: #0cafff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

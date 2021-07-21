@@ -1,0 +1,28 @@
+.sortBtn {
+    background-color: #ffffff;
+    margin-left: 30px;
+    font-size: 0.8rem;
+    font-family: 'yekan', sans-serif;
+    border-radius: 24px;
+    border: 2px solid transparent;
+    padding: 0px 10px;
+    line-height: 1rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+        border: 2px solid #0cafff;
+        color: #0cafff;
+        box-shadow: 0px 2px 8px 0px #0cafff;
+    }
+    &.active {
+        color: #fff;
+        background-color: #0cafff;
+        box-shadow: 0px 2px 8px 0px #0cafff;
+
+        &:hover {
+            border: 2px solid #fff;
+            color: #fff;
+            box-shadow: 0px 2px 8px 0px #474b4d;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.bannerContainer {
+    align-items: center;
+    display: flex;
+    padding: 20px 0 70px;
+    background-color: #f05539;
+    background-image: url('../../assets/images/abstract.png');
+    background-repeat: no-repeat;
+    background-size: 400px 320px;
+    background-position: bottom;
+    justify-content: center;
+    min-height: 250px;
+    > form {
+        width: 95%;
+        max-width: 600px;
+    }
+}
+.title {
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.searchBox {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    border-radius: 24px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'yekan', sans-serif;
+    transition: border 0.3s, box-shadow 0.3s;
+    &:focus {
+        outline: none;
+        border-color: #333;
+        box-shadow: 0 0 5px #fff;
+    }
+}
+.searchBtn {
+    display: block;
+    background-color: #ff0;
+    border-color: transparent;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 2px;
+    color: #333;
+    cursor: pointer;
+    font-family: 'yekan', sans-serif;
+    margin: 30px auto 10px;
+    padding: 2px 15px;
+    min-width: 150px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    &:hover {
+        background-color: #ff0;
+        box-shadow: 0 0 5px #ff0, 0 0 50px 10px #ff0;
+    }
+    &:active {
+        background-color: #333;
+        border-color: #ff0;
+        color: #ff0;
+    }
+}
