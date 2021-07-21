@@ -5,7 +5,7 @@
     height: 65px;
     justify-content: space-between;
     padding: 5px 20px;
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 760px) {
         height: auto;
         display: block;
         padding-bottom: 20px;
@@ -27,7 +27,7 @@
         display: inline-block;
         margin: 5px 25px;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 760px) {
             &:first-of-type {
                 display: block;
                 width: 100%;

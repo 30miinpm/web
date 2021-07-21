@@ -1,0 +1,120 @@
+.profileContainer {
+    min-height: calc(100vh - 95px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editForm {
+    text-align: center;
+    min-width: 300px;
+    padding: 0 5%;
+    @media screen and (min-width: 768px) {
+        min-width: 400px;
+    }
+}
+.inputWrapper {
+    margin: 0px 15px;
+    &.full {
+        width: 400px;
+        @media screen and (min-width: 768px) {
+            width: 500px;
+        }
+        @media screen and (min-width: 1076px) {
+            width: 1033px;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+        width: 500px;
+    }
+}
+.title {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    color: #333;
+    font-size: 1.2rem;
+    span {
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    button {
+        font-weight: bold;
+        transform: scale(0.7);
+        margin: 0;
+    }
+}
+.tabContainer {
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+
+    button {
+        background-color: #fff;
+        border: 1px solid #dfdfdf;
+        font-family: 'yekan', sans-serif;
+        padding: 2px 35px;
+        color: #dfdfdf;
+        min-width: 100px;
+        font-weight: bold;
+
+        &:first-of-type {
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        &:last-of-type {
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+        }
+        &:hover {
+            background-color: #dfdfdf;
+            color: #0cafff;
+            border-color: #dfdfdf;
+        }
+        &.active {
+            background-color: #fff;
+            color: #333;
+            border-color: #dfdfdf;
+        }
+    }
+}
+.receptTable {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px 15px 20px;
+    display: block;
+    overflow-x: auto;
+    max-width: none;
+    @media screen and (max-width: 900px) {
+        max-width: 600px;
+    }
+    @media screen and (max-width: 600px) {
+        max-width: 500px;
+    }
+    @media screen and (max-width: 400px) {
+        max-width: 360px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    tr {
+        border-bottom: 2px solid #6d6d6d;
+        &:first-of-type {
+            border-bottom: 2px solid #d1d1d1;
+        }
+    }
+    th {
+        color: #a0a0a0;
+        padding: 10px;
+        text-align: right;
+    }
+    td {
+        min-width: 300px;
+        padding: 10px;
+        
+    }
+}

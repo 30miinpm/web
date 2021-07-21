@@ -31,7 +31,7 @@ const MyNavigationNavbar = () => {
                     </Link>
                 </li>
             </ul>
-            <MyUserButton />
+            <MyUserButton loggedIn user="هادی" />
         </div>
     );
 };
