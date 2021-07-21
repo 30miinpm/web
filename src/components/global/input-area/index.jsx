@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
-import styles from './input.module.scss';
+import styles from './inputArea.module.scss';
 
 const MyInputArea = ({ label, ...inputProps }) => {
     return (

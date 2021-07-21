@@ -1,0 +1,19 @@
+.sortContainer {
+    background-color: #fff;
+    height: 50px;
+    color: #000;
+    margin: 7.5px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    display: flex;
+
+    @media screen and (max-width: 600px) {
+        display: block;
+        height: auto;
+        min-height: 50px;
+    }
+}
+.label {
+    margin-left: 30px;
+    font-size: 0.8rem;
+}

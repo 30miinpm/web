@@ -1,0 +1,23 @@
+.wrapperContainer {
+    margin: 7.5px;
+    display: flex;
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
+}
+.content {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-column-gap: 0;
+    grid-row-gap: 10px;
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+.sidebar {
+    width: 25%;
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+}

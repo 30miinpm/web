@@ -7,18 +7,25 @@
 .signinForm {
     text-align: center;
     min-width: 300px;
+    padding: 0 5%;
     @media screen and (min-width: 768px) {
         min-width: 400px;
     }
 }
 .inputWrapper {
+    margin: 0px 15px;
+    &.full {
+        width: 400px;
+        @media screen and (min-width: 768px) {
+            width: 500px;
+        }
+        @media screen and (min-width: 1076px) {
+            width: 1033px;
+        }
+    }
     @media screen and (min-width: 768px) {
         display: inline-block;
         width: 500px;
-        margin: 0px 15px;
-        &.full {
-            width: 94%;
-        }
     }
 }
 .title {

@@ -1,0 +1,36 @@
+.itemContainer {
+    padding: 7.5px;
+}
+.productItem {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #333;
+    padding: 10px 15px;
+    min-width: 300px;
+
+    h3 {
+        color: #333;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    h4 {
+        color: #777;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    hr {
+        margin-top: 60px;
+    }
+
+    p {
+        padding: 2px 5px;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            margin-left: 0;
+        }
+    }
+}

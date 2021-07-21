@@ -10,43 +10,43 @@ const MySignUp = () => {
         <div className={styles.authContainer}>
             <form className={styles.signinForm}>
                 <h1 className={styles.title}>فروشگاه - ثبت نام</h1>
-                <Wrapper>
+                <MyWrapper>
                     <MyInput
                         placeholder="نام خود را وارد کنید ..."
                         type="text"
                         label="نام"
                     />
-                </Wrapper>
-                <Wrapper>
+                </MyWrapper>
+                <MyWrapper>
                     <MyInput
                         placeholder="نام خانوادگی خود را وارد کنید ..."
                         type="text"
                         label="نام خانوادگی"
                     />
-                </Wrapper>
-                <Wrapper>
+                </MyWrapper>
+                <MyWrapper>
                     <MyInput
                         placeholder="ایمیل خود را وارد کنید ..."
                         type="email"
                         label="ایمیل"
                     />
-                </Wrapper>
-                <Wrapper>
+                </MyWrapper>
+                <MyWrapper>
                     <MyInput
                         minlength="6"
                         label="رمزعبور"
                         type="password"
                         placeholder="رمزعبور خود را وارد کنید ..."
                     />
-                </Wrapper>
-                <Wrapper fullWidth>
+                </MyWrapper>
+                <MyWrapper fullWidth>
                     <MyInputArea
                         rows="3"
                         label="آدرس"
                         type="text"
                         placeholder="آدرس خود را وارد کنید ..."
                     />
-                </Wrapper>
+                </MyWrapper>
                 <br />
                 <MyButton>ثبت نام</MyButton>
             </form>
@@ -56,7 +56,7 @@ const MySignUp = () => {
 
 export default MySignUp;
 
-const Wrapper = ({ children, fullWidth = false }) => {
+const MyWrapper = ({ children, fullWidth = false }) => {
     return (
         <div
             className={clsx(styles.inputWrapper, fullWidth ? styles.full : '')}

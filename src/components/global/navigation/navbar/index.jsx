@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './navbar.module.scss';
+import MyUserButton from '../../userButton';
 
 const MyNavigationNavbar = () => {
     return (
@@ -15,20 +16,22 @@ const MyNavigationNavbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <a href="#!">تماس با ما</a>
+                    <Link href="/" passHref>
+                        <a href="#!">تماس با ما</a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#!">پشتیبانی</a>
+                    <Link href="/" passHref>
+                        <a href="#!">پشتیبانی</a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#!">محصولات</a>
+                    <Link href="/" passHref>
+                        <a href="#!">محصولات</a>
+                    </Link>
                 </li>
             </ul>
-            <Link href="/user/signin">
-                <button type="button" className={styles.userDropdown}>
-                    ورود / ثبت نام
-                </button>
-            </Link>
+            <MyUserButton />
         </div>
     );
 };

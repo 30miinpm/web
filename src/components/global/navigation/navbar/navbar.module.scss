@@ -5,6 +5,16 @@
     height: 65px;
     justify-content: space-between;
     padding: 5px 20px;
+    @media screen and (max-width: 800px) {
+        height: auto;
+        display: block;
+        padding-bottom: 20px;
+        button {
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+    }
 }
 .logo {
     color: #0cafff;
@@ -16,6 +26,14 @@
     li {
         display: inline-block;
         margin: 5px 25px;
+
+        @media screen and (max-width: 800px) {
+            &:first-of-type {
+                display: block;
+                width: 100%;
+            }
+        }
+
         a {
             color: #444;
             text-decoration: none;
@@ -24,25 +42,5 @@
                 color: #0cafff;
             }
         }
-    }
-}
-.userDropdown {
-    background-color: #fff;
-    border-color: #ff0;
-    border-radius: 24px;
-    border-style: solid;
-    border-width: 2px;
-    color: #333;
-    cursor: pointer;
-    font-family: 'yekan', sans-serif;
-    margin: 10px 20px;
-    padding: 0 15px;
-    transition: background-color 0.3s, color 0.3s;
-    &:hover {
-        background-color: #ff0;
-    }
-    &:active {
-        background-color: #333;
-        color: #ff0;
     }
 }
