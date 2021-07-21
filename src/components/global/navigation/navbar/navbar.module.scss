@@ -35,7 +35,8 @@
     color: #333;
     cursor: pointer;
     font-family: 'yekan', sans-serif;
-    padding: 10px 20px;
+    margin: 10px 20px;
+    padding: 0 15px;
     transition: background-color 0.3s, color 0.3s;
     &:hover {
         background-color: #ff0;

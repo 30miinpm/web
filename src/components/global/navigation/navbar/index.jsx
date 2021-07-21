@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styles from './navbar.module.scss';
 
 const MyNavigationNavbar = () => {
@@ -9,7 +10,9 @@ const MyNavigationNavbar = () => {
                     <span className={styles.logo}>فروشگاه</span>
                 </li>
                 <li>
-                    <a href="#!">صفحه اصلی</a>
+                    <Link href="/" passHref>
+                        <a href="#!">صفحه اصلی</a>
+                    </Link>
                 </li>
                 <li>
                     <a href="#!">تماس با ما</a>
@@ -21,9 +24,11 @@ const MyNavigationNavbar = () => {
                     <a href="#!">محصولات</a>
                 </li>
             </ul>
-            <button type="button" className={styles.userDropdown}>
-                ورود / ثبت نام
-            </button>
+            <Link href="/user/signin">
+                <button type="button" className={styles.userDropdown}>
+                    ورود / ثبت نام
+                </button>
+            </Link>
         </div>
     );
 };

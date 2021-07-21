@@ -6,7 +6,7 @@ const MyNavigation = ({ children }) => {
     return (
         <>
             <MyNavigationNavbar />
-            {children}
+            <div style={{ minHeight: 'calc(100vh - 95px)' }}>{children}</div>
             <MyNavigationFooter />
         </>
     );

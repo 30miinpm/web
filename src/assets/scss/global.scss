@@ -2,7 +2,18 @@
 @import './responsive';
 @import './fonts';
 
-body {
-    direction: rtl;
-    font-family: 'yekan', sans-serif;
+html {
+    font-size: 16px;
+    body {
+        direction: rtl;
+        font-family: 'yekan', sans-serif;
+        background-color: #e7e8ec;
+    }
+}
+
+a {
+    color: #0cafff;
+    &:hover {
+        color:#0c7dff;
+    }
 }
